@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MeuPainelComponent } from './controller/meu-painel/meu-painel.component';
 import { HomeComponent } from './controller/home/home.component';
+import { MenuPainelComponent } from './components/menu-painel/menu-painel.component';
+import { SairComponent } from './controller/sair/sair.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     MeuPainelComponent,
-    HomeComponent
+    HomeComponent,
+    MenuPainelComponent,
+    SairComponent
   ],
   imports: [
     BrowserModule,

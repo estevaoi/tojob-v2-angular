@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MeuPainelComponent implements OnInit {
 
+  nome: string = 'Estêvão';
+
   constructor() { }
 
   ngOnInit(): void {
