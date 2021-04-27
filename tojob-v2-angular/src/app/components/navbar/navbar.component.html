@@ -15,11 +15,19 @@
           <a class="nav-link" [routerLink]="'/'" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'/meu-painel'" routerLinkActive="active">Meu Painel</a>
+          <a class="nav-link" [routerLink]="'/meu-painel'" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Meu Painel</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'/configuracoes'" routerLinkActive="active">Configurações</a>
-        </li>
+          <a class="nav-link" [routerLink]="'/vagas'" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Vagas</a>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/curriculos'" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Currículos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/para-canditados'" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Para Canditados</a>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="'/para-recrutadores'" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Para Recrutadores</a>
+            </li>
+          
       </ul>
     </div>
   </section>
