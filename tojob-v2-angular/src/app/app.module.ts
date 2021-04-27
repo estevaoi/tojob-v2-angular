@@ -10,7 +10,7 @@ import { MeuPainelComponent } from './controller/meu-painel/meu-painel.component
 import { HomeComponent } from './controller/home/home.component';
 import { MenuPainelComponent } from './components/menu-painel/menu-painel.component';
 import { SairComponent } from './controller/sair/sair.component';
-import { DadosPesoaisComponent } from './controller/dados-pesoais/dados-pesoais.component';
+import { DadosPessoaisComponent } from './controller/dados-pessoais/dados-pessoais.component';
 import { MensagensComponent } from './controller/mensagens/mensagens.component';
 import { DadosProfissionaisComponent } from './controller/dados-profissionais/dados-profissionais.component';
 import { CandidaturasComponent } from './controller/candidaturas/candidaturas.component';
@@ -27,7 +27,7 @@ import { ParaCanditadosComponent } from './controller/para-canditados/para-candi
     HomeComponent,
     MenuPainelComponent,
     SairComponent,
-    DadosPesoaisComponent,
+    DadosPessoaisComponent,
     MensagensComponent,
     DadosProfissionaisComponent,
     CandidaturasComponent,
