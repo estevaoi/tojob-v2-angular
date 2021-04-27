@@ -18,6 +18,8 @@ import { AssinaturasComponent } from './controller/assinaturas/assinaturas.compo
 import { VagasComponent } from './controller/vagas/vagas.component';
 import { ParaRecrutadoresComponent } from './controller/para-recrutadores/para-recrutadores.component';
 import { ParaCanditadosComponent } from './controller/para-canditados/para-canditados.component';
+import { CurriculosComponent } from './controller/curriculos/curriculos.component';
+import { ConfiguracoesComponent } from './controller/configuracoes/configuracoes.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ParaCanditadosComponent } from './controller/para-canditados/para-candi
     AssinaturasComponent,
     VagasComponent,
     ParaRecrutadoresComponent,
-    ParaCanditadosComponent
+    ParaCanditadosComponent,
+    CurriculosComponent,
+    ConfiguracoesComponent
   ],
   imports: [
     BrowserModule,
