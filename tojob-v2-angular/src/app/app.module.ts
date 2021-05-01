@@ -20,6 +20,7 @@ import { ParaRecrutadoresComponent } from './controller/para-recrutadores/para-r
 import { ParaCanditadosComponent } from './controller/para-canditados/para-canditados.component';
 import { CurriculosComponent } from './controller/curriculos/curriculos.component';
 import { ConfiguracoesComponent } from './controller/configuracoes/configuracoes.component';
+import { MainFooterComponent } from './controller/main-footer/main-footer.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ConfiguracoesComponent } from './controller/configuracoes/configuracoes
     ParaRecrutadoresComponent,
     ParaCanditadosComponent,
     CurriculosComponent,
-    ConfiguracoesComponent
+    ConfiguracoesComponent,
+    MainFooterComponent
   ],
   imports: [
     BrowserModule,

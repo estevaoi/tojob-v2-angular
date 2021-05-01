@@ -13,6 +13,7 @@ import { ParaCanditadosComponent } from './controller/para-canditados/para-candi
 import { ParaRecrutadoresComponent } from './controller//para-recrutadores/para-recrutadores.component';
 import { MensagensComponent } from './controller/mensagens/mensagens.component';
 import { ConfiguracoesComponent } from './controller/configuracoes/configuracoes.component';
+import { MainFooterComponent } from './controller/main-footer/main-footer.component';
  
 
 
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'para-recrutadores', component: ParaRecrutadoresComponent},
   { path: 'mensagens', component: MensagensComponent },
   { path: 'configuracoes', component: ConfiguracoesComponent},
+  { path: 'main-footer', component: MainFooterComponent },
 
 ];
 
