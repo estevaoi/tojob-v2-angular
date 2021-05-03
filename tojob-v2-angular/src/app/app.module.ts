@@ -21,6 +21,10 @@ import { ParaCanditadosComponent } from './controller/para-canditados/para-candi
 import { CurriculosComponent } from './controller/curriculos/curriculos.component';
 import { ConfiguracoesComponent } from './controller/configuracoes/configuracoes.component';
 import { MainFooterComponent } from './controller/main-footer/main-footer.component';
+import { ContatoComponent } from './controller/contato/contato.component';
+import { SobreNosComponent } from './controller/sobre-nos/sobre-nos.component';
+import { PoliticaComponent } from './controller/politica/politica.component';
+import { AjudaComponent } from './controller/ajuda/ajuda.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { MainFooterComponent } from './controller/main-footer/main-footer.compon
     ParaCanditadosComponent,
     CurriculosComponent,
     ConfiguracoesComponent,
-    MainFooterComponent
+    MainFooterComponent,
+    ContatoComponent,
+    SobreNosComponent,
+    PoliticaComponent,
+    AjudaComponent
   ],
   imports: [
     BrowserModule,

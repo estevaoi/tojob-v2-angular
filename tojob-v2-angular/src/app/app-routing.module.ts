@@ -14,7 +14,10 @@ import { ParaRecrutadoresComponent } from './controller//para-recrutadores/para-
 import { MensagensComponent } from './controller/mensagens/mensagens.component';
 import { ConfiguracoesComponent } from './controller/configuracoes/configuracoes.component';
 import { MainFooterComponent } from './controller/main-footer/main-footer.component';
- 
+import { ContatoComponent } from './controller/contato/contato.component';
+import { AjudaComponent } from './controller/ajuda/ajuda.component';
+import { PoliticaComponent } from './controller/politica/politica.component';
+import { SobreNosComponent } from './controller/sobre-nos/sobre-nos.component'; 
 
 
 const routes: Routes = [
@@ -32,6 +35,11 @@ const routes: Routes = [
   { path: 'mensagens', component: MensagensComponent },
   { path: 'configuracoes', component: ConfiguracoesComponent},
   { path: 'main-footer', component: MainFooterComponent },
+  { path: 'contato', component: ContatoComponent },
+  { path: 'ajuda', component: AjudaComponent },
+  { path: 'politica', component: PoliticaComponent},
+  { path: 'sobre-nos', component: SobreNosComponent },
+
 
 ];
 
