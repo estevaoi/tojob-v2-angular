@@ -2,7 +2,8 @@
     background-image: url(https://www.tojob.com.br/assets/theme/images/home-bgblur.jpg);
     color: rgb(14, 13, 13);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     
 }  
 
