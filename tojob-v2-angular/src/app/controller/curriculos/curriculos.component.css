@@ -1,0 +1,48 @@
+.cont{
+    background-color: rgb(236, 234, 234);
+}
+
+.row{
+    
+}
+
+.section{
+    background-color:rgb(236, 234, 234);
+    
+
+}
+
+.vagaemp{
+    
+    margin: 20px;
+}
+.pesquisar{
+    border-left: 0;
+    background-color: rgb(206, 209, 208);
+    color:rgba(29, 28, 28, 0.534);
+    margin: -8px;
+    border-color: rgba(109, 109, 109, 0.534);
+
+}
+
+.divpesquisar{
+    padding-top: 40px;
+}
+
+.divtextopesquisa{
+    padding: 15px;
+}
+
+.enviar{
+    margin-right: 15px;
+}
+
+.btnpesq{
+    margin: 5px;
+    padding: 8px;
+}
+
+.fotovaga{
+    margin: 20px;
+    
+}
